@@ -1,9 +1,13 @@
 body {
   font-family: arial, sans-serif;
+  background-image: url("../media/4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  color: #878787;
+  color: #575757;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -17,7 +21,7 @@ ul {
 
 li {
   list-style: none;
-  color: rgb(135, 135, 135);
+  color: #757575;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -32,7 +36,9 @@ li::first-letter {
   margin-top: 30px auto;
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(3px);
 }
 
 .weather-app-wrapper {
